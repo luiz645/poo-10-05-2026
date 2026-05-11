@@ -1,4 +1,7 @@
 package pasta6;
+
+import java.util.Objects;
+
 class Livro {
 
     String titulo;
@@ -34,5 +37,10 @@ class Livro {
         // Compara apenas o ISBN
         return this.isbn.equals(outro.isbn);
     }
+
+            @Override
+        public int hashCode() {
+        return Objects.hash(isbn); // mesmo campo do equals
+        }
 }
 
