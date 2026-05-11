@@ -1,3 +1,4 @@
+package pasta1;
 public class index {
     public static void main(String[] args) {
         produto P  = new produto("shampoo", 12);

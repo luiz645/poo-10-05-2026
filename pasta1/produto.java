@@ -1,3 +1,4 @@
+package pasta1;
 public class produto {
     String nome;
     double preco;
