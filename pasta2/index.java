@@ -5,5 +5,10 @@ public class index {
     produtO P = new produtO("caneta",2.5);
     
     System.out.println(P);
+
+    /*
+      Agora a saída ficou legível,
+        porque sobrescrevemos o método toString().
+     */
    } 
 }
